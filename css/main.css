@@ -211,10 +211,8 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url(/img/jake-melara-unsplash.jpg);
+  background: url(/img/jake-melara-unsplash.jpg) no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 450px;
 }
 
 .hero-area h1 {
@@ -265,7 +263,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url(/img/rawpixel-800820-unsplash1.jpg);
+  background-image: url(/img/rawpixel-800820-unsplash.jpg);
   background-size: cover;
 }
 
