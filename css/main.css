@@ -684,6 +684,10 @@ input[type=button] {
     font-size: 1.5em;
   }
 
+  .map figure {
+    padding-bottom: 60%;
+  }
+
   /* FAQ page styles */
   .faq .content-wrapper {
     justify-content: space-between;
@@ -789,6 +793,10 @@ About Page
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 40%;
   }
 
   /* ==========================================================================
