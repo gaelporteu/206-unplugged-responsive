@@ -108,7 +108,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
-  color: #e2e3ed
+  color: #e2e3ed;
 }
 
 ul,
@@ -258,10 +258,10 @@ footer .copyright {
 }
 
 footer i {
-  font-size: 2em;
+  font-size: 1.5em;
   border-radius: 50%;
   background-color: #527158;
-  padding: 20px;
+  padding: 15px;
   height: 50%;
   width: 50%;
 
@@ -301,7 +301,7 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  color: #9d9ea4;
   font-style: italic;
   padding: 1em;
 }
@@ -569,7 +569,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
@@ -765,6 +765,10 @@ input[type=button] {
   p {
     font-size: 1.125em;
     line-height: 1.333em;
+  }
+
+  header nav {
+    width: 20%;
   }
 
   /* Hero */
