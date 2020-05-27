@@ -231,6 +231,7 @@ footer {
 footer p {
   margin: 0;
 }
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
@@ -248,12 +249,22 @@ footer .social-icons {
 
 footer .social-icons p {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 footer .copyright {
   margin: 20px 0;
+}
+
+footer i {
+  font-size: 2em;
+  border-radius: 50%;
+  background-color: #527158;
+  padding: 20px;
+  height: 50%;
+  width: 50%;
+
 }
 
 /* Main section styles */
@@ -286,7 +297,7 @@ aside {
 aside .form {
   margin-top: 30px;
 }
- 
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -294,7 +305,7 @@ input[type=text] {
   font-style: italic;
   padding: 1em;
 }
- 
+
 input[type=button] {
   width: 100%;
   padding: 20px 0;
@@ -314,7 +325,7 @@ input[type=button] {
 }
 
 .features {
-  background: url('../img/unplugged-retreat-features.jpg');
+  background: url(/img/rawpixel-800820-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -331,7 +342,7 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .features-items {
+.features .feature-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -341,6 +352,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .reviews {
@@ -520,7 +536,7 @@ input[type=button] {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
-  
+
   /* General styles */
   .content-wrapper {
     max-width: 640px;
@@ -643,6 +659,11 @@ input[type=button] {
 
   footer .contact {
     margin-bottom: 0;
+    width: 100%;
+  }
+
+  footer .social {
+    width: 100%;
   }
 
   footer h4 {
@@ -656,6 +677,15 @@ input[type=button] {
 
   footer .copyright {
     width: 100%;
+  }
+
+  footer .social-icons {
+    justify-content: space-evenly;
+  }
+
+  footer i {
+    font-size: 1.25em;
+    padding: 15px;
   }
 
   /* About page styles */
@@ -714,7 +744,7 @@ input[type=button] {
   header {
     padding: 15px 0;
   }
-  
+
   .hero-area {
     min-height: 775px;
   }
@@ -771,7 +801,7 @@ input[type=button] {
   .reviews h2 {
     padding-bottom: 50px;
   }
-  
+
   .reviews article div {
     width: 42%;
   }
