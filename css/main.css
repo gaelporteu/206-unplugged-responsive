@@ -220,6 +220,7 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  width: 50%;
 }
 
 /* Footer section styles*/
